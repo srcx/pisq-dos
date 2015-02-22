@@ -6,7 +6,7 @@ Pisq is a text interface for connect5 playing written in assembler. Loser is leg
 
 Spusteni:
 
-pisq.exe hrac1 hrac2
+`pisq.exe hrac1 hrac2`
 
 Hrac? muze byt bud '_' pro lidskeho hrace nebo jmeno externiho programu (.exe)
 
@@ -14,22 +14,22 @@ Vzhled:
 
 Prvni radek obrazovky je stavovy - jeho obsah (zleva doprava):
 
-pocet tahu (jako tri cislice) - jedno kolo jednoho hrace = jeden tah
-pocet bodu (vyher) pro hrace 1 (kolecko) jako dve cislice
-symbol kolecka 'O'
-sipka ukazujici, kdo je na tahu nebo kdo prave vyhral, popr. nic pri remize
-symbol krizku 'X'
-pocet bodu (vyher) pro hrace 2 (krizek) jako dve cislice
-dodatecna informace - chybove hlasky, jmeno externiho programu apod.
+* pocet tahu (jako tri cislice) - jedno kolo jednoho hrace = jeden tah
+* pocet bodu (vyher) pro hrace 1 (kolecko) jako dve cislice
+* symbol kolecka 'O'
+* sipka ukazujici, kdo je na tahu nebo kdo prave vyhral, popr. nic pri remize
+* symbol krizku 'X'
+* pocet bodu (vyher) pro hrace 2 (krizek) jako dve cislice
+* dodatecna informace - chybove hlasky, jmeno externiho programu apod.
 
 Zbytek obrazovky obsahuje hraci pole (19 krat 19 policek + okraje), kde '.' je
 prazdne policko, 'O' a 'X' jsou jiz polozene kameny a '#' je okraj.
 
 Ovladani:
 
-sipka nahoru, dolu, doleva, doprava - ovladani kurzoru
-mezernik - umisteni kamene na misto kurzoru
-klavesa 'S' - vzdani se
+* sipka nahoru, dolu, doleva, doprava - ovladani kurzoru
+* mezernik - umisteni kamene na misto kurzoru
+* klavesa 'S' - vzdani se
 
 Po kazde skoncene hre je mozno po dotazu 'Again (y/n)?' program ukoncit
 klavesou 'n'.
