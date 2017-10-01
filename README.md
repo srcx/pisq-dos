@@ -1,5 +1,7 @@
 # Pisq
 
+**Warning: unmaintained since 2000!**
+
 Pisq is a text interface for connect5 playing written in assembler. Loser is legendary brain originally included in legendary program Pisqorky for Dummies and Wizards which few times almost ;-) won Turnaj (tournament).
 
 (Rest in Czech.)
